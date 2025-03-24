@@ -1,7 +1,5 @@
 {
   "homepage": "https://DonaGitCode.github.io/MyPortfolio",
-  "predeploy": "vite build",
-  "deploy": "gh-pages -d dist",
   "name": "donato-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "embla-carousel-react": "^8.0.0",
